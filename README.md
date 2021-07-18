@@ -7,7 +7,7 @@ This document contains guidelines and best practices for the front-end developme
 The goals for creating this document are to:
 
 - Produce code of a consistent quality across all projects / offices
-- Streamline process of collaborating with multiple developers or agencies on the same project at the same time in the same way
+- Streamline process for collaborating with multiple developers or agencies on the same project at the same time in the same way
 - Write dynamic code that can evolve and grow
 - Produce code that is less prone to bugs and regressions, is easier to understand and debug
 
@@ -33,7 +33,7 @@ Page load times are a key consideration for users of all browsers and device typ
 - Reduce the amount of HTTP requests
 - Minify all your files, compress all your assets before uploading to server
 - Lazy load content when possible
-- Regulary benchmark your site using tools such as Google Page Speed, light house etc. then follow their recommendations
+- Regulary benchmark your site using tools such as Google Page Speed, Lighthouse etc. then follow their recommendations
 
 ### Keep your code DRY (Don't Repeat Yourself)
 
@@ -45,7 +45,7 @@ When writing code or planning for solutions, it is best to always take the most 
 
 ### Testing and QA
 
-Always test your code and makke sure, as much as possible, you have tested on a reasonable number of devices so you can catch problems before you commit or deploy to bundle. Do not rely on testers or other team members to catch issues for you as this will lengthen the development time.
+Always test your code and make sure, as much as possible, you have tested on a reasonable number of devices so you can catch problems before you commit or deploy to your project. Do not rely on testers or other team members to catch issues for you as this will lengthen the development time.
 
 ## Requirements for Libraries, Frameworks, and Plugins
 
@@ -69,7 +69,7 @@ more to come...
 
 #### Standards and best practices for: 
 
-- development with Expresia
+- Development with Expresia
 - HTML/CSS/JS
 
 
