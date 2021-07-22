@@ -12,14 +12,14 @@ The goals for creating this document are to:
 - Write dynamic code that can evolve and grow
 - Produce code that is less prone to bugs and regressions, is easier to understand and debug
 
-This document will be updated regulary to reflect development trends and to suit the needs of what we do at Backbone.
+This document will be updated regularly to reflect development trends and to suit the needs of what we do at Backbone.
 
 
 ## General Development Standards
 
 For all projects:
 
-- Consistency and naming conventions between team members is crucial. Developer must ensure that all codes/comments can be reasonably easy to interprete and pick-up by other team members.
+- Consistency and naming conventions between team members is crucial. Developer must ensure that all codes/comments can be reasonably easy to interpret and pick-up by other team members.
 - Solutions should be as simple and clear as possible. They should serve specific purpose and can be maintain or expand over time.
 
 ### Code Consistency
@@ -35,7 +35,7 @@ Page load times are a key consideration for users of all browsers and device typ
 - Reduce the amount of HTTP requests
 - Minify all your files, compress all your assets before uploading to server
 - Lazy load content when possible
-- Regulary benchmark your site using tools such as Google Page Speed, Lighthouse etc. then follow their recommendations
+- Regularly benchmark your site using tools such as Google Page Speed, Lighthouse etc. then follow their recommendations
 
 ### Keep your code DRY (Don't Repeat Yourself)
 
@@ -78,7 +78,7 @@ Some tips and best practices to follow when developing your project with Expresi
 - Only hydrate data that you need for your page
 - Make use of "noUnhydrated=1" and "select_fields" params to reduce payload size
 - Always be mindful of the amount of API requests, some can be shared across elements, ensure there is no duplicated Data sources.
-- Don't forget your params! Some query parameter are crucial but easy to forget i.e. a check for object status when rendering a collection (e.g. always set Active and Visible params when displaying a list of articles/sections), consider best sorting options based on your content, additional parans for multi-language maybe required for your project
+- Don't forget your params! Some query parameter are crucial but easy to forget i.e. a check for object status when rendering a collection (e.g. always set Active and Visible params when displaying a list of articles/sections), consider best sorting options based on your content, additional params for multi-language maybe required for your project
 - Consider the length of data on your page when it grows over time. Use pagination to avoid fetching a big chunk of data.
 
 ### Working with Playlists
@@ -123,7 +123,7 @@ Consistency is key. The main goal is for team members to collaborate using the s
 
 - Avoid including libraries/plugins that share the same functionality e.g. having 3 of the same slider/carousel libraries on a project
 - Avoid using var and use `const/let` - In JavaScript, `const` means that the identifier can't be reassigned. `let` is a signal that the variable may be reassigned, it also signals that the variable will be used only in the block it's defined in.
-- Comment your code: describe code design or architectural decisions for the benefit of other developers modifying, extending or debugging the code and also for yourself when revisting later.
+- Comment your code: describe code design or architectural decisions for the benefit of other developers modifying, extending or debugging the code and also for yourself when revisiting later.
 
 
 
