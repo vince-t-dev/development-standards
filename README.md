@@ -104,7 +104,7 @@ Consistency is key. The main goal is for team members to collaborate using the s
 
 ### Indentation 
 
-- For all code languages, use *soft tabs* comprised of four spaces per tab. Hitting the Tab key in your text editor should generate four space.
+- For all code languages, use **soft tabs** which is comprised of four spaces per tab. Hitting the Tab key in your text editor should generate four space of characters.
 
 ### HTML
 
