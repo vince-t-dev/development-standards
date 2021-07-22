@@ -121,7 +121,7 @@ Consistency is key. The main goal is for team members to collaborate using the s
 
 ### JS
 
-- Avoid including libraries/plugins that share the same functionality e.g. having 3 of the same slider/carousel libraries on a project
+- Avoid including libraries/plugins that share the same functionality e.g. not having 3 of the same slider/carousel libraries on a project
 - Avoid using var and use `const/let` - In JavaScript, `const` means that the identifier can't be reassigned. `let` is a signal that the variable may be reassigned, it also signals that the variable will be used only in the block it's defined in.
 - Comment your code: describe code design or architectural decisions for the benefit of other developers modifying, extending or debugging the code and also for yourself when revisiting later.
 
