@@ -65,11 +65,31 @@ Others (optional)
 - jQuery
 - Core UI Pro
 
-more to come...
+## Development with Expresia
 
-#### Standards and best practices for: 
+Some tips and best practices to follow when developing your project with Expresia.
 
-- Development with Expresia
-- HTML/CSS/JS
+### Fetch your data from API efficiently 
 
+- Only hydrate data that you need for your page
+- Make use of "noUnhydrated=1" to reduce payload size
+- Always be mindful of the amount of API requests, some can be shared across elements, ensure there is no duplicated Data sources.
+- Don't forget your params! Some query parameter are crucial but easy to forget i.e. a check for object status when rendering a collection (e.g. always set Active and Visible params when displaying a list of articles/sections), consider best sorting options based on your content, additional parans for multi-language maybe required for your project
+- Consider the length of data on your page when it grows over time. Use pagination to avoid fetching a big chunk of data.
+
+### Working with Playlists
+
+All playlist skins should be able to: 
+
+- Handle content dynamically and be able to grow over time.
+- Appear anywhere on a page in any direction and still look and function properly
+- Have multiple of the same skin on a page. Use playlist Id as identifier to avoid errors in your Javascript or HTML
+- Change its appearance or minor customizations by using playlist options
+
+### Other misc. tips
+
+- Avoid using too many XprLogic in an element
+- Avoid nesting multiple levels of elements
+- Use try / catch in your Javascript
+- Clean up unused elements, data sources, SSJS etc.
 
