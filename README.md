@@ -115,9 +115,9 @@ Consistency is key. The main goal is for team members to collaborate using the s
 
 ### CSS
 
-- Avoid writing new CSS classes as much as possible and rely on utilities. Get familiar with all utility classes here https://getbootstrap.com/docs/5.0/utilities/api/. Consider expanding utility classes and follow their naming conventions when needed.
-- Use CSS variables for color themes e.g. "--primary" for your primary HEX color
-- Use font weight to display different font variants. Similar to Google Font approach use different font weights to render fonts e.g. 300: din light, 400: din regular, 600: din medium etc.
+- Avoid writing new CSS classes as much as possible and rely on utilities. Get familiar with all utility classes here https://getbootstrap.com/docs/5.0/utilities/api/. Consider expanding utility classes and follow their naming conventions when needed instead of writing a new specific class
+- Use CSS variables for color themes e.g. `--primary` for your primary HEX color
+- Use font weight to display different font variants. Similar to Google Font approach, use different font weights to render fonts e.g. `300: din light`, `400: din regular`, `600: din medium` and so on.
 
 ### JS
 
