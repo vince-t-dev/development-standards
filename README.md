@@ -24,7 +24,7 @@ For all projects:
 
 ### Code Consistency
 
-The usage of the same development pattern is critical and beneficial to our team members. It allows us to quickly understand code, provide or implmenent solutions. It also simplifies debugging which, as a result, speeds up development process.
+The usage of the same development pattern is critical and beneficial to our team members. It allows us to quickly understand code, provide or implement solutions. It also simplifies debugging which, as a result, speeds up development process.
 
 It is highly recommended to establish environments, tools used before or at the start of a project.
 
