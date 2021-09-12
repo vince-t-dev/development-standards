@@ -56,7 +56,7 @@ Use the following libraries and frameworks when developing your project:
 
 - Grid Framework: Bootstrap current: 5.0.2 (https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - Sliders and galleries: Swiper JS (https://swiperjs.com/)
-- Form validations: Validate JS https://jqueryvalidation.org/documentation/
+- Form validations: Validate JS https://jqueryvalidation.org/documentation/ , Pure JS alternative - https://github.com/mikeerickson/validatorjs#readme
 - Form input masks: https://github.com/RobinHerbots/Inputmask
 
 Others (optional)
